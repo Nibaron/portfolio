@@ -1,4 +1,4 @@
-# IMDB TOP MOVIE TABLE
+# Personal Portfolio
 <image src="./src/assets/homepage.png">
 
 # REQUIREMENTS
