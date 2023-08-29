@@ -5,7 +5,7 @@ import arrowPic from "./assets/arrow.png";
 
 const Skill = () => {
     const gotoProject = () => {
-        window.location.href = './#projects';
+        window.location.href = "./#projects";
     };
     return (
         <section id="experience">
