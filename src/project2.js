@@ -16,7 +16,7 @@ const Projects2 = () => {
     return (
         <section id="projects">
             <p className="section__text__p1">Browse My Recent</p>
-            <h1 className="title">Projects(4-6)</h1>
+            <h1 className="title">REACT Projects</h1>
             <div className="experience-details-container">
                 <div className="about-containers">
                     <div className="details-container color-container">
@@ -28,7 +28,7 @@ const Projects2 = () => {
                             />
                         </div>
                         <h2 className="experience-sub-title project-title">
-                            REACT IMDB Table
+                            IMDB Movie Table
                         </h2>
                         <div className="btn-container">
                             <button
