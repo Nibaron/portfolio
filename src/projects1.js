@@ -13,7 +13,7 @@ const Projects1 = () => {
     return (
         <section id="projects">
             <p className="section__text__p1">Browse My Recent</p>
-            <h1 className="title">Projects(1-3)</h1>
+            <h1 className="title">RUET Projects</h1>
             <div className="experience-details-container">
                 <div className="about-containers">
                     <div className="details-container color-container">
