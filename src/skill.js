@@ -69,8 +69,8 @@ const Skill = () => {
                                     className="icon"
                                 />
                                 <div>
-                                    <h3>Java</h3>
-                                    <p>Basic</p>
+                                    <h3>mySQL</h3>
+                                    <p>Experienced</p>
                                 </div>
                             </article>
                             <article>
