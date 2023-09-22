@@ -1,5 +1,4 @@
 import React from "react";
-import arrowPic from "./assets/arrow.png";
 import p1Pic from "./assets/project-1.jpg";
 import p2Pic from "./assets/Game.gif";
 import p3Pic from "./assets/project-3.png";

@@ -1,8 +1,8 @@
 import React from "react";
 import arrowPic from "./assets/arrow.png";
 import p4Pic from "./assets/project-4.png";
-import p5Pic from "./assets/project-5.png";
-import p6Pic from "./assets/project-6.png";
+import p5Pic from "./assets/p5PIC.png";
+import p6Pic from "./assets/project-b.png";
 
 
 const Projects2 = () => {
@@ -19,6 +19,61 @@ const Projects2 = () => {
             <h1 className="title">REACT Projects</h1>
             <div className="experience-details-container">
                 <div className="about-containers">
+                    
+                    <div className="details-container color-container">
+                        <div className="article-container">
+                            <img
+                                src={p5Pic}
+                                alt="code book"
+                                className="project-img"
+                            />
+                        </div>
+                        <h2 className="experience-sub-title project-title">
+                            CodeBook E-Commerce
+                        </h2>
+                        <div className="btn-container">
+                            <button
+                                className="btn btn-color-2 project-btn"
+                                onClick={()=>handleClick('https://github.com/Nibaron/book-bazar-ecommerce')}
+                            >
+                                Github
+                            </button>
+                            <button
+                                className="btn btn-color-2 project-btn"
+                                onClick={()=>handleClick('https://book-bazar-ecommerce.vercel.app/')}
+                            >
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="details-container color-container">
+                        <div className="article-container">
+                            <img
+                                src={p6Pic}
+                                alt="Project 6"
+                                className="project-img"
+                            />
+                        </div>
+                        <h2 className="experience-sub-title project-title">
+                            Movie Magnet Web Page
+                        </h2>
+                        <div className="btn-container">
+                            <button
+                                className="btn btn-color-2 project-btn"
+                                onClick={()=>handleClick('https://github.com/Nibaron/movie_magnet_react')}
+                            >
+                                Github
+                            </button>
+                            <button
+                                className="btn btn-color-2 project-btn"
+                                onClick={()=>handleClick('https://movie-magnet-react.vercel.app/')}
+                            >
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+
                     <div className="details-container color-container">
                         <div className="article-container">
                             <img
@@ -45,58 +100,7 @@ const Projects2 = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="details-container color-container">
-                        <div className="article-container">
-                            <img
-                                src={p5Pic}
-                                alt="DX ball Game"
-                                className="project-img"
-                            />
-                        </div>
-                        <h2 className="experience-sub-title project-title">
-                            REACT ToDo List
-                        </h2>
-                        <div className="btn-container">
-                            <button
-                                className="btn btn-color-2 project-btn"
-                                onClick={()=>handleClick('https://github.com/Nibaron/todo_list')}
-                            >
-                                Github
-                            </button>
-                            <button
-                                className="btn btn-color-2 project-btn"
-                                onClick={()=>handleClick('https://todo-nibz.netlify.app/')}
-                            >
-                                Live Demo
-                            </button>
-                        </div>
-                    </div>
-                    <div className="details-container color-container">
-                        <div className="article-container">
-                            <img
-                                src={p6Pic}
-                                alt="Project 6"
-                                className="project-img"
-                            />
-                        </div>
-                        <h2 className="experience-sub-title project-title">
-                            Personal Portfolio
-                        </h2>
-                        <div className="btn-container">
-                            <button
-                                className="btn btn-color-2 project-btn"
-                                onClick={()=>handleClick('https://github.com/Nibaron/portfolio')}
-                            >
-                                Github
-                            </button>
-                            <button
-                                className="btn btn-color-2 project-btn"
-                                onClick={()=>handleClick('https://niaron-nibz.netlify.app/')}
-                            >
-                                Live Demo
-                            </button>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <img
