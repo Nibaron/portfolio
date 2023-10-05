@@ -23,7 +23,7 @@ const Projects2 = () => {
                     <div className="details-container color-container">
                         <div className="article-container">
                             <img
-                                src={p5Pic}
+                                src={p6Pic}
                                 alt="code book"
                                 className="project-img"
                             />
@@ -50,7 +50,7 @@ const Projects2 = () => {
                     <div className="details-container color-container">
                         <div className="article-container">
                             <img
-                                src={p6Pic}
+                                src={p5Pic}
                                 alt="Project 6"
                                 className="project-img"
                             />
